@@ -9,10 +9,11 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/gofiber/fiber/v2"
+	"github.com/gofiber/fiber/v3"
+
+	core "github.com/jigarvarma2k20/fiber-template"
 
 	"github.com/cbroglie/mustache"
-	core "github.com/gofiber/template"
 	"github.com/gofiber/utils"
 	"github.com/valyala/bytebufferpool"
 )
